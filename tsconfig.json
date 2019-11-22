@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "declaration": false,
+    "module": "es2015",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "target": "es5",
+    "jsx": "react",
+    "baseUrl": "src",
+    "paths": {
+      "App/*": ["App/*"],
+      "components/*": ["components/*"],
+      "Experience/*": ["Experience/*"],
+      "utils/*": ["utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

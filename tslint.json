@@ -1,0 +1,20 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "semicolon": [
+      false,
+      "never",
+      "ignore-interfaces",
+      "ignore-bound-class-methods"
+    ],
+    "quotemark": [true, "double", "avoid-escape"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "curly": [true, "as-needed"],
+    "prettier": true
+  },
+  "rulesDirectory": []
+}
